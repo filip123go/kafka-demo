@@ -22,7 +22,7 @@ public class ProducerDemoKeys {
 
         for (int i = 0; i < 10; i++) {
             String topic = "first_topic";
-            String value = "Hello world" + i;
+            String value = "Hello Stavros " + i;
             String key = "id_" + i;
 
             //create producer record
