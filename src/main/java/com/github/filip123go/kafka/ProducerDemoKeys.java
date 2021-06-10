@@ -25,7 +25,6 @@ public class ProducerDemoKeys {
             String value = "Hello world" + i;
             String key = "id_" + i;
 
-
             //create producer record
             ProducerRecord<String, String> record = new ProducerRecord<>(topic, key, value);
             //send data - asynchronous
